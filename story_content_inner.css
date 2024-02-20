@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+body {
+  background-color: #232423;
+  overflow-x: hidden;
+}
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+}
+  
+.navbar {
+  background-color: #c08ddb;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.saved a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.home {
+margin-top: 15px;
+cursor: pointer;
+font-weight: 700;
+}
+
+.home a{
+text-decoration: inherit;
+color: inherit;
+}
+
+.search-panel i {
+margin-left: 5px;
+cursor: pointer;
+margin-top: 8px;
+
+}
+.search-panel {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  margin-right: 3px;
+  border-radius: 25px;
+  border: 3px solid black;
+}
+
+input {
+outline: 0px;
+border: 0px;
+background-color: transparent;
+margin-bottom: 10px;
+}
+
+.favorites {
+margin-top: 15px;
+margin-left: 6px;
+font-weight: 700;
+cursor: pointer;
+}
+
+.saved {
+margin-left: 6px;
+margin-top: 15px;
+font-weight: 700;
+cursor: pointer;
+}
+
+.download-btn{
+  color:rgb(49, 4, 4);
+  font-weight: 900;
+  background-color: rgb(229, 255, 0);
+  border-radius: 30px;
+  border: none;
+}
+
+/**Main content**/
+
+.Adventure_Stories_content {
+align-items: center;
+text-align: center;
+margin-top: 55px;
+}
+
+.Adventure_Stories_content h1 {
+color: #d5f640;
+}
+
+.Adventure_Stories_content p {
+color: #01cef2;
+font-size: 20px;
+margin-top: 40px;
+font-weight: 500;
+line-height: 40px;
+}
+

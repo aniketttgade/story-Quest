@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+  }
+
+  body {
+    background-color: #031e46;
+    overflow-x: hidden;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+  }
+    
+  .navbar {
+    background-color:#98f6b8;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+/* Style for the menu */
+.menu {
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.saved a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.menu a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+  .home {
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .home a{
+    text-decoration: inherit;
+    color: inherit;
+  }
+
+.search-panel i {
+  margin-left: 5px;
+  cursor: pointer;
+  margin-top: 8px;
+  
+}
+
+.search-panel {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  margin-right: 3px;
+  border-radius: 25px;
+  border: 3px solid black;
+  
+}
+
+input {
+  border: 0px;
+  outline: 0px;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+
+.favorites {
+  margin-top: 15px;
+  margin-left: 6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.saved {
+  margin-left: 6px;
+  margin-top: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/** Main Content**/
+.main-content {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-story {
+  margin-top: 50px;
+  height: 250px;
+  width: 300px;
+  background-color: #a1c1f2;
+}
+
+.box-story-img {
+  height: 190px;
+  background-size: cover;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.box-story a {
+  text-align: center;
+  color: #211951;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.box-story h2 {
+  color: #6D2932;
+  text-align: center;
+  padding-bottom: 2px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.box-one {
+  border: 2px solid black;
+  height: 60px;
+  width: 50px;
+}
+
+.box-story a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.foot{
+  background-color:#606060 ;
+  color: #03f2ff;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+.foot-text {
+  padding-top: 15px;
+  font-weight: 700;
+}

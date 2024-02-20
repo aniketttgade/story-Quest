@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>story pages</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <div id="menu" class="menu" onmouseover="toggleMenu(true)" onmouseout="toggleMenu(false)">
+            <a><p><i class="fa-solid fa-bars"></i> Menu</p></a>
+        </div>
+            
+                <div class="search-panel">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="Search" id="searchInput" placeholder="Search Topic" class="Search-option">
+                </div>
+            <div class="favorites">
+                <a ><p> <i class="fa-solid fa-star"></i> Favorites</p></a>
+            </div>
+            <a href="saved_page.html"><div class="saved">
+                <p><i class="fa-solid fa-bookmark"></i> Saved</p>
+            </a></div>
+        </div>
+    </header>
+
+    <script src="search.js"></script>
+    <!--Main Content-->
+    <main>
+    <div class="main-content">
+        <div class="box-story">
+            <a href="Adventure_Stories.html"><h2><p>Adventure Stories</p></h2></a>
+            <a href="Adventure_Stories.html"><div class="box-story-img" style="background-image: url(advanture_storys.jpg);"></div></a>
+            <a href="Adventure_Stories.html"><p>Explore</p></a>
+        </div>
+
+        <div class="box-story"><h2>
+            <a href="Mystery_Stories.html"><p>Mystery Stories</p></h2></a>
+            <a href="Mystery_Stories.html"><div class="box-story-img" style="background-image: url(mistrystory.jpg);"></div></a>
+            <a href="Mystery_Stories.html"><p>Explore</p></a>
+        </div>
+
+        <div class="box-story"><h2>
+            <a href="Romance_Stories.html"><p>Romance Stories</p></h2></a>
+            <a href="Romance_Stories.html"><div class="box-story-img" style="background-image: url(romantic\ storys.jpg);"></div></a>
+            <a href="Romance_Stories.html"><p>Explore</p></a>
+        </div>
+
+        <div class="box-story"><h2>
+            <a href="science_finction_stories.html"><p>Science Fiction Stories</p></h2></a>
+            <a href="science_finction_stories.html"><div class="box-story-img" style="background-image: url(sciencefrictionstory.jpg);"></div></a>
+            <a href="science_finction_stories.html"><p>Explore</p></a>
+        </div>
+
+        <div class="box-story"><h2>
+            <a href="Fantasy_Stories.html"><p>Fantasy Stories</p></h2></a>
+            <a href="Fantasy_Stories.html"><div class="box-story-img" style="background-image: url(fantys.png);"></div></a>
+            <a href="Fantasy_Stories.html"><p>Explore</p></a>
+        </div>
+
+        <div class="box-story"><h2>
+            <a href="Historical_Fiction.html"><p>Historical Fiction</p></h2></a>
+            <a href="Historical_Fiction.html"><div class="box-story-img" style="background-image: url(historicalstories.jpg);"></div></a>
+            <a href="Historical_Fiction.html"><p>Explore</p></a>
+        </div>
+        
+            <div class="box-story"><h2>
+                <a href="Literary_Fiction.html"><p>Literary Fiction</p></h2></a>
+                <a href="Literary_Fiction.html"><div class="box-story-img" style="background-image: url(LiteraryFiction.webp);"></div></a>
+                <a href="Literary_Fiction.html"><p>Explore</p></a>
+            </div>
+
+                <div class="box-story"><h2>
+                    <a href="Horror_Stories.html"><p>Horror Stories</p></h2></a>
+                    <a href="Horror_Stories.html"><div class="box-story-img" style="background-image: url(horror.jpg);"></div></a>
+                    <a href="Horror_Stories.html"><p>Explore</p></a>
+                </div>
+
+                    <div class="box-story"><h2></a>
+                        <a href="Suspense_Thriller_Stories.html"><p>Suspense/Thriller Stories</p></h2>
+                            <a href="Suspense_Thriller_Stories.html"><div class="box-story-img" style="background-image: url(suspenceThriller.png);"></div></a>
+                        <a href="Suspense_Thriller_Stories.html"><p>Explore</p></a>
+                    </div>
+
+                        <div class="box-story"><h2>
+                            <a href="Dystopian_Stories.html"><p>Dystopian Stories</p></h2></a>
+                            <a href="Dystopian_Stories.html"><div class="box-story-img" style="background-image: url(dystopianstories.jpg);"></div></a>
+                            <a href="Dystopian_Stories.html"><p>Explore</p></a>
+                        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="foot">
+        <div class="foot-text">
+        <p>Made By Love &#9825 </p>
+    </div>
+    </div>
+</footer>
+<script src="search.js"></script>
+<script>    function toggleMenu() {
+    document.body.classList.toggle('menu-open');
+}</script>
+</body>
+</html>

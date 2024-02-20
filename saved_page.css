@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+  }
+
+  body {
+    background-color: #191919;
+    overflow-x: hidden;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+  }
+    
+  .navbar {
+    background-color:rgb(251, 108, 198);
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+/* Style for the menu */
+.menu {
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.saved a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.menu a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+  .home {
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .home a{
+    text-decoration: inherit;
+    color: inherit;
+  }
+
+.search-panel i {
+  margin-left: 5px;
+  cursor: pointer;
+  margin-top: 8px;
+  
+}
+
+.search-panel {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  margin-right: 3px;
+  border-radius: 25px;
+  border: 3px solid black;
+  
+}
+
+input {
+  border: 0px;
+  outline: 0px;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+
+.favorites {
+  margin-top: 15px;
+  margin-left: 6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.saved {
+  margin-left: 6px;
+  margin-top: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.all_saved_stories {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-size: cover;
+}
+.saved_stories {
+    border: 2px solid black;
+    height: 320px;
+    width: 70%;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    display: flex;  
+}
+/* Add this CSS code to your existing stylesheet */
+
+.saved_stories {
+  border: 2px solid #f45050;
+  background-color: transparent;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+}
+
+.story-main {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 27%;
+  margin-right: 20px;
+  cursor: pointer; 
+  overflow: auto;
+}
+
+.story-main h1 {
+  margin-top: 20px;
+  color: #c7aaf2;
+}
+
+.story-main p {
+  font-size: 17px;
+  color: #0168ad;
+  font-weight: 500;
+  margin-top: 30px;
+}
+i {
+  color: rgb(255, 7, 7);
+}
